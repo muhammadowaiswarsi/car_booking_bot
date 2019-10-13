@@ -1,0 +1,9 @@
+{
+  "id": "bd05c062-3484-4413-80d4-c513d1c4b209",
+  "name": "sys.url",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

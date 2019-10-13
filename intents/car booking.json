@@ -1,0 +1,110 @@
+{
+  "id": "8790b167-3b16-44fd-9eb9-64fabd20060d",
+  "name": "car booking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6bdf2988-fc13-4d0e-bc22-cd4b0005da62",
+          "required": true,
+          "dataType": "@carTypes",
+          "name": "carTypes",
+          "value": "$carTypes",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which type of car do you want?"
+            },
+            {
+              "lang": "en",
+              "value": "Which type of you like to buy?"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me type of car"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a4fa69af-b7c5-404f-bf15-89d11d7b5001",
+          "required": true,
+          "dataType": "@sys.person",
+          "name": "person",
+          "value": "$person",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your good name?"
+            },
+            {
+              "lang": "en",
+              "value": "let me know your name please?"
+            },
+            {
+              "lang": "en",
+              "value": "kindly tell me your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "70ed8f31-3286-4c18-8c2d-471ed7f67668",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly give me your email?"
+            },
+            {
+              "lang": "en",
+              "value": "please tell me your email?"
+            },
+            {
+              "lang": "en",
+              "value": "let me know your email please"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thanks for booking"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
